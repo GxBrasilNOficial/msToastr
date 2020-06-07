@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExportFile>
+  <KMW>
+    <MajorVersion>4</MajorVersion>
+    <MinorVersion>0</MinorVersion>
+    <Build>140712</Build>
+  </KMW>
+  <Source kb="899c782b-20e7-4bb9-8e37-5b05eb6cff2b" username="NOTEMWS\MWS" UNCPath="\\NOTEMWS\D$\Matias\devUserControl">
+    <Version guid="c65e6933-ee85-43d1-a48f-bd4ffdb19fbc" name="devUserControl" />
+  </Source>
+  <Objects>
+    <Object parent="UserControlObjects" parentType="00000000-0000-0000-0000-000000000008" parentGuid="cc190287-9ed5-4b1d-bdbb-dc762ade3af7" user="NOTEMWS\MWS" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2020-06-07T01:25:48.0000000Z" checksum="6eb66dbc5b6094a9d4b71ca7f6bd0321" fullyQualifiedName="msToastr" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="902c0c03-326d-4b49-9b55-ed282786f7fd" name="msToastr" type="00000000-0000-0000-0000-000000000008" description="ms Toastr">
+      <Properties><Property><Name>Name</Name><Value>msToastr</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+    </Object>
+    <Object parent="msToastr" parentType="00000000-0000-0000-0000-000000000008" parentGuid="902c0c03-326d-4b49-9b55-ed282786f7fd" user="NOTEMWS\MWS" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2020-06-07T01:42:19.0000000Z" checksum="cc2a48914e58c06f062499116601d86a" fullyQualifiedName="msToastrAPI" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="4d753991-aff4-4732-a936-eee57ae172ae" name="msToastrAPI" type="c163e562-42c6-4158-ad83-5b21a14cf30e" description="ms Toastr API">
+      <Part type="00000000-0000-0000-0002-000000000005">
+        <ExternalMethods>
+          <ExternalMethod>
+            <Parameters>
+              <Parameter>
+                <Properties><Property><Name>IntName</Name><Value>Messages</Value></Property><Property><Name>ExoItemType</Name><Value>sdt:Messages, GeneXus.Common</Value></Property><Property><Name>ExoItemLength</Name><Value>0</Value></Property></Properties>
+              </Parameter>
+            </Parameters>
+            <Properties><Property><Name>IntName</Name><Value>MessagesGx</Value></Property><Property><Name>ExoMethodIsStatic</Name><Value>True</Value></Property><Property><Name>ExoNameJS</Name><Value>MessagesGx</Value></Property></Properties>
+          </ExternalMethod>
+          <ExternalMethod>
+            <Parameters>
+              <Parameter>
+                <Properties><Property><Name>IntName</Name><Value>Message</Value></Property><Property><Name>ExoItemType</Name><Value>bas:LongVarChar</Value></Property><Property><Name>ExoItemLength</Name><Value>2097152</Value></Property></Properties>
+              </Parameter>
+            </Parameters>
+            <Properties><Property><Name>IntName</Name><Value>Error</Value></Property><Property><Name>ExoMethodIsStatic</Name><Value>True</Value></Property><Property><Name>ExoNameJS</Name><Value>NotifyError</Value></Property></Properties>
+          </ExternalMethod>
+          <ExternalMethod>
+            <Parameters>
+              <Parameter>
+                <Properties><Property><Name>IntName</Name><Value>Message</Value></Property><Property><Name>ExoItemType</Name><Value>bas:LongVarChar</Value></Property><Property><Name>ExoItemLength</Name><Value>2097152</Value></Property></Properties>
+              </Parameter>
+            </Parameters>
+            <Properties><Property><Name>IntName</Name><Value>Warning</Value></Property><Property><Name>ExoMethodIsStatic</Name><Value>True</Value></Property><Property><Name>ExoNameJS</Name><Value>NotifyWarning</Value></Property></Properties>
+          </ExternalMethod>
+          <ExternalMethod>
+            <Parameters>
+              <Parameter>
+                <Properties><Property><Name>IntName</Name><Value>Message</Value></Property><Property><Name>ExoItemType</Name><Value>bas:LongVarChar</Value></Property><Property><Name>ExoItemLength</Name><Value>2097152</Value></Property></Properties>
+              </Parameter>
+            </Parameters>
+            <Properties><Property><Name>IntName</Name><Value>Info</Value></Property><Property><Name>ExoMethodIsStatic</Name><Value>True</Value></Property><Property><Name>ExoNameJS</Name><Value>NotifyInfo</Value></Property></Properties>
+          </ExternalMethod>
+          <ExternalMethod>
+            <Parameters>
+              <Parameter>
+                <Properties><Property><Name>IntName</Name><Value>Message</Value></Property><Property><Name>ExoItemType</Name><Value>bas:LongVarChar</Value></Property><Property><Name>ExoItemLength</Name><Value>2097152</Value></Property></Properties>
+              </Parameter>
+            </Parameters>
+            <Properties><Property><Name>IntName</Name><Value>Success</Value></Property><Property><Name>ExoMethodIsStatic</Name><Value>True</Value></Property><Property><Name>ExoNameJS</Name><Value>NotifySuccess</Value></Property></Properties>
+          </ExternalMethod>
+        </ExternalMethods>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="ad3ca970-19d0-44e1-a7b7-db05556e820c">
+        <Help>
+          <HelpItem>
+            <Language>88313f43-5eb2-0000-0028-e8d9f5bf9588-English</Language>
+            <Content />
+          </HelpItem>
+        </Help>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+        <Properties />
+      </Part>
+      <Properties><Property><Name>Name</Name><Value>msToastrAPI</Value></Property><Property><Name>ExoNameJS</Name><Value>msToastr</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+    </Object>
+    <Object parent="msToastr" parentType="00000000-0000-0000-0000-000000000008" parentGuid="902c0c03-326d-4b49-9b55-ed282786f7fd" user="NOTEMWS\MWS" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2020-06-07T01:38:45.0000000Z" checksum="e7e06a3971aa84a143b47c3695d10047" fullyQualifiedName="Exemplo_msToastr" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="685d3aee-268c-45dc-abdb-df356f87d663" name="Exemplo_msToastr" type="c9584656-94b6-4ccd-890f-332d11fc2c25" description="Exemplo_ms Toastr">
+      <Part type="d24a58ad-57ba-41b7-9e6e-eaca3543c778">
+        <Source><![CDATA[<GxMultiForm rootId="1" version="html:15.0.0;layout:16.0.0"><Form id="1" type="layout"><detail><layout><table controlName="MainTable" tableType="Responsive" responsiveSizes="[]"><row><cell><action controlName="Error" onClickEvent="'Error'" /></cell><cell><action controlName="Warning" onClickEvent="'Warning'" /></cell><cell><action controlName="Info" onClickEvent="'Info'" /></cell><cell><action controlName="Success" onClickEvent="'Success'" /></cell><cell><action controlName="MessagesGx" onClickEvent="'MessagesGx'" /></cell></row><row><cell><ucw gxControlType="-1894264311" PATTERN_ELEMENT_CUSTOM_PROPERTIES="&lt;Properties&gt;&lt;Property&gt;&lt;Name&gt;ControlName&lt;/Name&gt;&lt;Value&gt;msToastr_Core1&lt;/Value&gt;&lt;/Property&gt;&lt;/Properties&gt;" /></cell></row></table></layout></detail></Form></GxMultiForm>]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="9b0a32a3-de6d-4be1-a4dd-1b85d3741534">
+        <Properties />
+      </Part>
+      <Part type="c44bd5ff-f918-415b-98e6-aca44fed84fa">
+        <Source><![CDATA[Event 'Error'
+	
+	msToastrAPI.Error('isso é erro')
+	
+Endevent
+
+Event 'Warning'
+	
+	msToastrAPI.Warning('isso é alerta')
+	
+Endevent
+
+Event 'info'
+	
+	msToastrAPI.Info('isso é info')
+	
+Endevent
+
+Event 'Success'
+	
+	msToastrAPI.Success('isso é sucesso')
+	
+Endevent
+
+Event 'MessagesGx'
+	
+	&Messages.Clear()
+	
+	&Message = New()
+	&Message.Id			= 'id1'
+	&Message.Description	= 'Isso é um erro direto do Messages'
+	&Message.Type			= MessageTypes.Error
+	&Messages.Add(&Message)
+	
+	&Message = New()
+	&Message.Id			= 'id2'
+	&Message.Description	= 'Isso é um alerta direto do Messages'
+	&Message.Type			= MessageTypes.Warning
+	&Messages.Add(&Message)
+	
+	msToastrAPI.MessagesGx(&Messages)
+	
+Endevent
+]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="763f0d8b-d8ac-4db4-8dd4-de8979f2b5b9">
+        <Properties />
+      </Part>
+      <Part type="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
+        <Variable Name="Messages">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>Messages</Value></Property><Property><Name>idIsAutoDefinedVariable</Name><Value>True</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:Messages, GeneXus.Common</Value></Property></Properties>
+        </Variable>
+        <Variable Name="Message">
+          <Documentation />
+          <Properties><Property><Name>Name</Name><Value>Message</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>sdt:Messages.Message, GeneXus.Common</Value></Property></Properties>
+        </Variable>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="ad3ca970-19d0-44e1-a7b7-db05556e820c">
+        <Help>
+          <HelpItem>
+            <Language>88313f43-5eb2-0000-0028-e8d9f5bf9588-English</Language>
+            <Content />
+          </HelpItem>
+        </Help>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+        <Properties />
+      </Part>
+      <Properties><Property><Name>Name</Name><Value>Exemplo_msToastr</Value></Property><Property><Name>MasterPage</Name><Value>(none)</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+    </Object>
+    <Object parent="msToastr" parentType="00000000-0000-0000-0000-000000000008" parentGuid="902c0c03-326d-4b49-9b55-ed282786f7fd" user="NOTEMWS\MWS" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2020-06-07T13:35:01.0000000Z" checksum="7251b9c383ac327ed5e80416dcb4d0e4" fullyQualifiedName="msToastr" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="263c9f6a-6e2b-4d47-a08c-c719fa865a24" name="msToastr" type="562f4793-aabe-449f-8821-fc77e550698e" description="UC do EO msNotify">
+      <Part type="3dd92fe7-b095-44d3-9fa0-8488fa3f0c67">
+        <Source><![CDATA[<style>
+
+.toast-title{font-weight:700}.toast-message{-ms-word-wrap:break-word;word-wrap:break-word}.toast-message a,.toast-message label{color:#FFF}.toast-message a:hover{color:#CCC;text-decoration:none}.toast-close-button{position:relative;right:-.3em;top:-.3em;float:right;font-size:20px;font-weight:700;color:#FFF;-webkit-text-shadow:0 1px 0 #fff;text-shadow:0 1px 0 #fff;opacity:.8;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=80);filter:alpha(opacity=80);line-height:1}.toast-close-button:focus,.toast-close-button:hover{color:#000;text-decoration:none;cursor:pointer;opacity:.4;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=40);filter:alpha(opacity=40)}.rtl .toast-close-button{left:-.3em;float:left;right:.3em}button.toast-close-button{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance:none}.toast-top-center{top:0;right:0;width:100%}.toast-bottom-center{bottom:0;right:0;width:100%}.toast-top-full-width{top:0;right:0;width:100%}.toast-bottom-full-width{bottom:0;right:0;width:100%}.toast-top-left{top:12px;left:12px}.toast-top-right{top:12px;right:12px}.toast-bottom-right{right:12px;bottom:12px}.toast-bottom-left{bottom:12px;left:12px}#toast-container{position:fixed;z-index:999999;pointer-events:none}#toast-container *{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}#toast-container>div{position:relative;pointer-events:auto;overflow:hidden;margin:0 0 6px;padding:15px 15px 15px 50px;width:300px;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;background-position:15px center;background-repeat:no-repeat;-moz-box-shadow:0 0 12px #999;-webkit-box-shadow:0 0 12px #999;box-shadow:0 0 12px #999;color:#FFF;opacity:.8;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=80);filter:alpha(opacity=80)}#toast-container>div.rtl{direction:rtl;padding:15px 50px 15px 15px;background-position:right 15px center}#toast-container>div:hover{-moz-box-shadow:0 0 12px #000;-webkit-box-shadow:0 0 12px #000;box-shadow:0 0 12px #000;opacity:1;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);filter:alpha(opacity=100);cursor:pointer}#toast-container>.toast-info{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGwSURBVEhLtZa9SgNBEMc9sUxxRcoUKSzSWIhXpFMhhYWFhaBg4yPYiWCXZxBLERsLRS3EQkEfwCKdjWJAwSKCgoKCcudv4O5YLrt7EzgXhiU3/4+b2ckmwVjJSpKkQ6wAi4gwhT+z3wRBcEz0yjSseUTrcRyfsHsXmD0AmbHOC9Ii8VImnuXBPglHpQ5wwSVM7sNnTG7Za4JwDdCjxyAiH3nyA2mtaTJufiDZ5dCaqlItILh1NHatfN5skvjx9Z38m69CgzuXmZgVrPIGE763Jx9qKsRozWYw6xOHdER+nn2KkO+Bb+UV5CBN6WC6QtBgbRVozrahAbmm6HtUsgtPC19tFdxXZYBOfkbmFJ1VaHA1VAHjd0pp70oTZzvR+EVrx2Ygfdsq6eu55BHYR8hlcki+n+kERUFG8BrA0BwjeAv2M8WLQBtcy+SD6fNsmnB3AlBLrgTtVW1c2QN4bVWLATaIS60J2Du5y1TiJgjSBvFVZgTmwCU+dAZFoPxGEEs8nyHC9Bwe2GvEJv2WXZb0vjdyFT4Cxk3e/kIqlOGoVLwwPevpYHT+00T+hWwXDf4AJAOUqWcDhbwAAAAASUVORK5CYII=)!important}#toast-container>.toast-error{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHOSURBVEhLrZa/SgNBEMZzh0WKCClSCKaIYOED+AAKeQQLG8HWztLCImBrYadgIdY+gIKNYkBFSwu7CAoqCgkkoGBI/E28PdbLZmeDLgzZzcx83/zZ2SSXC1j9fr+I1Hq93g2yxH4iwM1vkoBWAdxCmpzTxfkN2RcyZNaHFIkSo10+8kgxkXIURV5HGxTmFuc75B2RfQkpxHG8aAgaAFa0tAHqYFfQ7Iwe2yhODk8+J4C7yAoRTWI3w/4klGRgR4lO7Rpn9+gvMyWp+uxFh8+H+ARlgN1nJuJuQAYvNkEnwGFck18Er4q3egEc/oO+mhLdKgRyhdNFiacC0rlOCbhNVz4H9FnAYgDBvU3QIioZlJFLJtsoHYRDfiZoUyIxqCtRpVlANq0EU4dApjrtgezPFad5S19Wgjkc0hNVnuF4HjVA6C7QrSIbylB+oZe3aHgBsqlNqKYH48jXyJKMuAbiyVJ8KzaB3eRc0pg9VwQ4niFryI68qiOi3AbjwdsfnAtk0bCjTLJKr6mrD9g8iq/S/B81hguOMlQTnVyG40wAcjnmgsCNESDrjme7wfftP4P7SP4N3CJZdvzoNyGq2c/HWOXJGsvVg+RA/k2MC/wN6I2YA2Pt8GkAAAAASUVORK5CYII=)!important}#toast-container>.toast-success{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADsSURBVEhLY2AYBfQMgf///3P8+/evAIgvA/FsIF+BavYDDWMBGroaSMMBiE8VC7AZDrIFaMFnii3AZTjUgsUUWUDA8OdAH6iQbQEhw4HyGsPEcKBXBIC4ARhex4G4BsjmweU1soIFaGg/WtoFZRIZdEvIMhxkCCjXIVsATV6gFGACs4Rsw0EGgIIH3QJYJgHSARQZDrWAB+jawzgs+Q2UO49D7jnRSRGoEFRILcdmEMWGI0cm0JJ2QpYA1RDvcmzJEWhABhD/pqrL0S0CWuABKgnRki9lLseS7g2AlqwHWQSKH4oKLrILpRGhEQCw2LiRUIa4lwAAAABJRU5ErkJggg==)!important}#toast-container>.toast-warning{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGYSURBVEhL5ZSvTsNQFMbXZGICMYGYmJhAQIJAICYQPAACiSDB8AiICQQJT4CqQEwgJvYASAQCiZiYmJhAIBATCARJy+9rTsldd8sKu1M0+dLb057v6/lbq/2rK0mS/TRNj9cWNAKPYIJII7gIxCcQ51cvqID+GIEX8ASG4B1bK5gIZFeQfoJdEXOfgX4QAQg7kH2A65yQ87lyxb27sggkAzAuFhbbg1K2kgCkB1bVwyIR9m2L7PRPIhDUIXgGtyKw575yz3lTNs6X4JXnjV+LKM/m3MydnTbtOKIjtz6VhCBq4vSm3ncdrD2lk0VgUXSVKjVDJXJzijW1RQdsU7F77He8u68koNZTz8Oz5yGa6J3H3lZ0xYgXBK2QymlWWA+RWnYhskLBv2vmE+hBMCtbA7KX5drWyRT/2JsqZ2IvfB9Y4bWDNMFbJRFmC9E74SoS0CqulwjkC0+5bpcV1CZ8NMej4pjy0U+doDQsGyo1hzVJttIjhQ7GnBtRFN1UarUlH8F3xict+HY07rEzoUGPlWcjRFRr4/gChZgc3ZL2d8oAAAAASUVORK5CYII=)!important}#toast-container.toast-bottom-center>div,#toast-container.toast-top-center>div{width:300px;margin-left:auto;margin-right:auto}#toast-container.toast-bottom-full-width>div,#toast-container.toast-top-full-width>div{width:96%;margin-left:auto;margin-right:auto}.toast{background-color:#030303}.toast-success{background-color:#51A351}.toast-error{background-color:#BD362F}.toast-info{background-color:#2F96B4}.toast-warning{background-color:#F89406}.toast-progress{position:absolute;left:0;bottom:0;height:4px;background-color:#000;opacity:.4;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=40);filter:alpha(opacity=40)}@media all and (max-width:240px){#toast-container>div{padding:8px 8px 8px 50px;width:11em}#toast-container>div.rtl{padding:8px 50px 8px 8px}#toast-container .toast-close-button{right:-.2em;top:-.2em}#toast-container .rtl .toast-close-button{left:-.2em;right:.2em}}@media all and (min-width:241px) and (max-width:480px){#toast-container>div{padding:8px 8px 8px 50px;width:18em}#toast-container>div.rtl{padding:8px 50px 8px 8px}#toast-container .toast-close-button{right:-.2em;top:-.2em}#toast-container .rtl .toast-close-button{left:-.2em;right:.2em}}@media all and (min-width:481px) and (max-width:768px){#toast-container>div{padding:15px 15px 15px 50px;width:25em}#toast-container>div.rtl{padding:15px 50px 15px 15px}}
+
+</style>]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="8e9e4a7c-a4d3-4c36-8e8e-fb6702402f63">
+        <Source><![CDATA[<Definition auto="false">
+<Property Name="closeButton" Type="boolean" Default="true" />
+<Property Name="debug" Type="boolean" Default="false" />
+<Property Name="newestOnTop" Type="boolean" Default="true" />
+<Property Name="progressBar" Type="boolean" Default="false" />
+<Property Name="positionClass" Type="enum" Default="toast-top-center">
+	<Value>toast-top-right</Value>
+	<Value>toast-bottom-right</Value>
+	<Value>toast-bottom-left</Value>
+	<Value>toast-top-left</Value>
+	<Value>toast-top-full-width</Value>
+	<Value>toast-bottom-full-width</Value>
+	<Value>toast-top-center</Value>
+	<Value>toast-bottom-center</Value>
+</Property>
+<Property Name="preventDuplicates" Type="boolean" Default="false" />
+<Property Name="showDuration" Type="string" Default="300" />
+<Property Name="hideDuration" Type="string" Default="100" />
+<Property Name="timeOut" Type="string" Default="7000" />
+<Property Name="extendedTimeOut" Type="string" Default="1000" />
+<Property Name="showEasing" Type="enum" Default="swing">
+	<Value>swing</Value>
+	<Value>linear</Value>
+</Property>
+<Property Name="hideEasing" Type="enum" Default="linear">
+	<Value>swing</Value>
+	<Value>linear</Value>
+</Property>
+<Property Name="showMethod" Type="enum" Default="fadeIn">
+	<Value>show</Value>
+	<Value>fadeIn</Value>
+	<Value>slideDown</Value>
+</Property>
+<Property Name="hideMethod" Type="enum" Default="fadeOut">
+	<Value>hide</Value>
+	<Value>fadeOut</Value>
+	<Value>slideUp</Value>	
+</Property>
+
+<script Name="prep_msDialog" When="BeforeShow">
+
+	if (!this.IsPostBack) {
+		
+		gx.http.loadScript("MatiasSolucoes/msToastr/toastr.min.js", (function () {
+						
+			function toastrNotification(win) {
+				function init(config) {
+					win.toastr.options = config;
+					
+					return {
+						toast
+					};
+				}
+				
+				function toast(type, title, content) {
+					const notify = win.toastr[type];
+					
+					notify(content, title);
+				}
+				
+				return {
+					init
+				};
+			}
+			
+			(function () {
+				if (!window.modules) window.modules = {};
+				
+				window.modules.notify = toastrNotification(window).init({
+					"closeButton": this.closeButton,
+					"debug": this.debug,
+					"newestOnTop": this.newestOnTop,
+					"progressBar": this.progressBar,
+					"positionClass": this.positionClass,
+					"preventDuplicates": this.preventDuplicates,
+					"onclick": null,
+					"showDuration": this.showDuration,
+					"hideDuration": this.hideDuration,
+					"timeOut": this.timeOut,
+					"extendedTimeOut": this.extendedTimeOut,
+					"showEasing": this.showEasing,
+					"hideEasing": this.hideEasing,
+					"showMethod": this.showMethod,
+					"hideMethod": this.hideMethod
+				});
+			}.closure(this)());
+			
+			msToastr = (function() {
+				const notify = window.modules.notify;
+				
+				return {
+					MessagesGx: function (content) {
+						const permittedTypes = ['warning', 'error', 'info', 'success'];
+						
+						for (const msg of content) {
+							notify.toast(
+							permittedTypes[msg.Type],
+							'',
+							msg.Description
+							);
+						}				
+					},
+					NotifyError: function (content) {
+						notify.toast('error', '', content);
+					},
+					NotifyWarning: function (content) {
+						notify.toast('warning', '', content);
+					},
+					NotifyInfo: function (content) {
+						notify.toast('info', '', content);
+					},
+					NotifySuccess: function (content) {
+						notify.toast('success', '', content);
+					}
+				};
+			}());
+			
+		}).closure(this));
+	}
+
+</script>
+
+</Definition>]]></Source>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+        <InnerHtml><![CDATA[]]></InnerHtml>
+        <Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Properties><Property><Name>Name</Name><Value>msToastr</Value></Property><Property><Name>Description</Name><Value>UC do EO msNotify</Value></Property><Property><Name>FileReferences</Name><Value /></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+    </Object>
+    <Object parentGuid="00000000-0000-0000-0000-000000000000" user="NOTEMWS\MWS" versionDate="0001-01-01T00:00:00.0000000" lastUpdate="2020-06-07T13:31:27.0000000Z" checksum="9e141e3cde666987a73ba84df7813aad" fullyQualifiedName="msToastrJS" moduleGuid="00000000-0000-0000-0000-000000000000" guid="1ed72e65-d44d-4b92-b765-ac7d1e7194b7" name="msToastrJS" type="1132ac08-290f-4fd1-bd18-64777b7329d1" description="ms Toastr JS">
+      <Part type="9b6155f9-f286-4ed5-bd15-67672e8ea320">
+        <Data><base64Binary>IWZ1bmN0aW9uKGUpe2UoWyJqcXVlcnkiXSxmdW5jdGlvbihlKXtyZXR1cm4gZnVuY3Rpb24oKXtmdW5jdGlvbiB0KGUsdCxuKXtyZXR1cm4gZyh7dHlwZTpPLmVycm9yLGljb25DbGFzczptKCkuaWNvbkNsYXNzZXMuZXJyb3IsbWVzc2FnZTplLG9wdGlvbnNPdmVycmlkZTpuLHRpdGxlOnR9KX1mdW5jdGlvbiBuKHQsbil7cmV0dXJuIHR8fCh0PW0oKSksdj1lKCIjIit0LmNvbnRhaW5lcklkKSx2Lmxlbmd0aD92OihuJiYodj1kKHQpKSx2KX1mdW5jdGlvbiBvKGUsdCxuKXtyZXR1cm4gZyh7dHlwZTpPLmluZm8saWNvbkNsYXNzOm0oKS5pY29uQ2xhc3Nlcy5pbmZvLG1lc3NhZ2U6ZSxvcHRpb25zT3ZlcnJpZGU6bix0aXRsZTp0fSl9ZnVuY3Rpb24gcyhlKXtDPWV9ZnVuY3Rpb24gaShlLHQsbil7cmV0dXJuIGcoe3R5cGU6Ty5zdWNjZXNzLGljb25DbGFzczptKCkuaWNvbkNsYXNzZXMuc3VjY2VzcyxtZXNzYWdlOmUsb3B0aW9uc092ZXJyaWRlOm4sdGl0bGU6dH0pfWZ1bmN0aW9uIGEoZSx0LG4pe3JldHVybiBnKHt0eXBlOk8ud2FybmluZyxpY29uQ2xhc3M6bSgpLmljb25DbGFzc2VzLndhcm5pbmcsbWVzc2FnZTplLG9wdGlvbnNPdmVycmlkZTpuLHRpdGxlOnR9KX1mdW5jdGlvbiByKGUsdCl7dmFyIG89bSgpO3Z8fG4obyksdShlLG8sdCl8fGwobyl9ZnVuY3Rpb24gYyh0KXt2YXIgbz1tKCk7cmV0dXJuIHZ8fG4obyksdCYmMD09PWUoIjpmb2N1cyIsdCkubGVuZ3RoP3ZvaWQgaCh0KTp2b2lkKHYuY2hpbGRyZW4oKS5sZW5ndGgmJnYucmVtb3ZlKCkpfWZ1bmN0aW9uIGwodCl7Zm9yKHZhciBuPXYuY2hpbGRyZW4oKSxvPW4ubGVuZ3RoLTE7bz49MDtvLS0pdShlKG5bb10pLHQpfWZ1bmN0aW9uIHUodCxuLG8pe3ZhciBzPSEoIW98fCFvLmZvcmNlKSYmby5mb3JjZTtyZXR1cm4hKCF0fHwhcyYmMCE9PWUoIjpmb2N1cyIsdCkubGVuZ3RoKSYmKHRbbi5oaWRlTWV0aG9kXSh7ZHVyYXRpb246bi5oaWRlRHVyYXRpb24sZWFzaW5nOm4uaGlkZUVhc2luZyxjb21wbGV0ZTpmdW5jdGlvbigpe2godCl9fSksITApfWZ1bmN0aW9uIGQodCl7cmV0dXJuIHY9ZSgiPGRpdi8+IikuYXR0cigiaWQiLHQuY29udGFpbmVySWQpLmFkZENsYXNzKHQucG9zaXRpb25DbGFzcyksdi5hcHBlbmRUbyhlKHQudGFyZ2V0KSksdn1mdW5jdGlvbiBwKCl7cmV0dXJue3RhcFRvRGlzbWlzczohMCx0b2FzdENsYXNzOiJ0b2FzdCIsY29udGFpbmVySWQ6InRvYXN0LWNvbnRhaW5lciIsZGVidWc6ITEsc2hvd01ldGhvZDoiZmFkZUluIixzaG93RHVyYXRpb246MzAwLHNob3dFYXNpbmc6InN3aW5nIixvblNob3duOnZvaWQgMCxoaWRlTWV0aG9kOiJmYWRlT3V0IixoaWRlRHVyYXRpb246MWUzLGhpZGVFYXNpbmc6InN3aW5nIixvbkhpZGRlbjp2b2lkIDAsY2xvc2VNZXRob2Q6ITEsY2xvc2VEdXJhdGlvbjohMSxjbG9zZUVhc2luZzohMSxjbG9zZU9uSG92ZXI6ITAsZXh0ZW5kZWRUaW1lT3V0OjFlMyxpY29uQ2xhc3Nlczp7ZXJyb3I6InRvYXN0LWVycm9yIixpbmZvOiJ0b2FzdC1pbmZvIixzdWNjZXNzOiJ0b2FzdC1zdWNjZXNzIix3YXJuaW5nOiJ0b2FzdC13YXJuaW5nIn0saWNvbkNsYXNzOiJ0b2FzdC1pbmZvIixwb3NpdGlvbkNsYXNzOiJ0b2FzdC10b3AtcmlnaHQiLHRpbWVPdXQ6NWUzLHRpdGxlQ2xhc3M6InRvYXN0LXRpdGxlIixtZXNzYWdlQ2xhc3M6InRvYXN0LW1lc3NhZ2UiLGVzY2FwZUh0bWw6ITEsdGFyZ2V0OiJib2R5IixjbG9zZUh0bWw6JzxidXR0b24gdHlwZT0iYnV0dG9uIj4mdGltZXM7PC9idXR0b24+JyxjbG9zZUNsYXNzOiJ0b2FzdC1jbG9zZS1idXR0b24iLG5ld2VzdE9uVG9wOiEwLHByZXZlbnREdXBsaWNhdGVzOiExLHByb2dyZXNzQmFyOiExLHByb2dyZXNzQ2xhc3M6InRvYXN0LXByb2dyZXNzIixydGw6ITF9fWZ1bmN0aW9uIGYoZSl7QyYmQyhlKX1mdW5jdGlvbiBnKHQpe2Z1bmN0aW9uIG8oZSl7cmV0dXJuIG51bGw9PWUmJihlPSIiKSxlLnJlcGxhY2UoLyYvZywiJmFtcDsiKS5yZXBsYWNlKC8iL2csIiZxdW90OyIpLnJlcGxhY2UoLycvZywiJiMzOTsiKS5yZXBsYWNlKC88L2csIiZsdDsiKS5yZXBsYWNlKC8+L2csIiZndDsiKX1mdW5jdGlvbiBzKCl7YygpLHUoKSxkKCkscCgpLGcoKSxDKCksbCgpLGkoKX1mdW5jdGlvbiBpKCl7dmFyIGU9IiI7c3dpdGNoKHQuaWNvbkNsYXNzKXtjYXNlInRvYXN0LXN1Y2Nlc3MiOmNhc2UidG9hc3QtaW5mbyI6ZT0icG9saXRlIjticmVhaztkZWZhdWx0OmU9ImFzc2VydGl2ZSJ9SS5hdHRyKCJhcmlhLWxpdmUiLGUpfWZ1bmN0aW9uIGEoKXtFLmNsb3NlT25Ib3ZlciYmSS5ob3ZlcihILEQpLCFFLm9uY2xpY2smJkUudGFwVG9EaXNtaXNzJiZJLmNsaWNrKGIpLEUuY2xvc2VCdXR0b24mJmomJmouY2xpY2soZnVuY3Rpb24oZSl7ZS5zdG9wUHJvcGFnYXRpb24/ZS5zdG9wUHJvcGFnYXRpb24oKTp2b2lkIDAhPT1lLmNhbmNlbEJ1YmJsZSYmZS5jYW5jZWxCdWJibGUhPT0hMCYmKGUuY2FuY2VsQnViYmxlPSEwKSxFLm9uQ2xvc2VDbGljayYmRS5vbkNsb3NlQ2xpY2soZSksYighMCl9KSxFLm9uY2xpY2smJkkuY2xpY2soZnVuY3Rpb24oZSl7RS5vbmNsaWNrKGUpLGIoKX0pfWZ1bmN0aW9uIHIoKXtJLmhpZGUoKSxJW0Uuc2hvd01ldGhvZF0oe2R1cmF0aW9uOkUuc2hvd0R1cmF0aW9uLGVhc2luZzpFLnNob3dFYXNpbmcsY29tcGxldGU6RS5vblNob3dufSksRS50aW1lT3V0PjAmJihrPXNldFRpbWVvdXQoYixFLnRpbWVPdXQpLEYubWF4SGlkZVRpbWU9cGFyc2VGbG9hdChFLnRpbWVPdXQpLEYuaGlkZUV0YT0obmV3IERhdGUpLmdldFRpbWUoKStGLm1heEhpZGVUaW1lLEUucHJvZ3Jlc3NCYXImJihGLmludGVydmFsSWQ9c2V0SW50ZXJ2YWwoeCwxMCkpKX1mdW5jdGlvbiBjKCl7dC5pY29uQ2xhc3MmJkkuYWRkQ2xhc3MoRS50b2FzdENsYXNzKS5hZGRDbGFzcyh5KX1mdW5jdGlvbiBsKCl7RS5uZXdlc3RPblRvcD92LnByZXBlbmQoSSk6di5hcHBlbmQoSSl9ZnVuY3Rpb24gdSgpe2lmKHQudGl0bGUpe3ZhciBlPXQudGl0bGU7RS5lc2NhcGVIdG1sJiYoZT1vKHQudGl0bGUpKSxNLmFwcGVuZChlKS5hZGRDbGFzcyhFLnRpdGxlQ2xhc3MpLEkuYXBwZW5kKE0pfX1mdW5jdGlvbiBkKCl7aWYodC5tZXNzYWdlKXt2YXIgZT10Lm1lc3NhZ2U7RS5lc2NhcGVIdG1sJiYoZT1vKHQubWVzc2FnZSkpLEIuYXBwZW5kKGUpLmFkZENsYXNzKEUubWVzc2FnZUNsYXNzKSxJLmFwcGVuZChCKX19ZnVuY3Rpb24gcCgpe0UuY2xvc2VCdXR0b24mJihqLmFkZENsYXNzKEUuY2xvc2VDbGFzcykuYXR0cigicm9sZSIsImJ1dHRvbiIpLEkucHJlcGVuZChqKSl9ZnVuY3Rpb24gZygpe0UucHJvZ3Jlc3NCYXImJihxLmFkZENsYXNzKEUucHJvZ3Jlc3NDbGFzcyksSS5wcmVwZW5kKHEpKX1mdW5jdGlvbiBDKCl7RS5ydGwmJkkuYWRkQ2xhc3MoInJ0bCIpfWZ1bmN0aW9uIE8oZSx0KXtpZihlLnByZXZlbnREdXBsaWNhdGVzKXtpZih0Lm1lc3NhZ2U9PT13KXJldHVybiEwO3c9dC5tZXNzYWdlfXJldHVybiExfWZ1bmN0aW9uIGIodCl7dmFyIG49dCYmRS5jbG9zZU1ldGhvZCE9PSExP0UuY2xvc2VNZXRob2Q6RS5oaWRlTWV0aG9kLG89dCYmRS5jbG9zZUR1cmF0aW9uIT09ITE/RS5jbG9zZUR1cmF0aW9uOkUuaGlkZUR1cmF0aW9uLHM9dCYmRS5jbG9zZUVhc2luZyE9PSExP0UuY2xvc2VFYXNpbmc6RS5oaWRlRWFzaW5nO2lmKCFlKCI6Zm9jdXMiLEkpLmxlbmd0aHx8dClyZXR1cm4gY2xlYXJUaW1lb3V0KEYuaW50ZXJ2YWxJZCksSVtuXSh7ZHVyYXRpb246byxlYXNpbmc6cyxjb21wbGV0ZTpmdW5jdGlvbigpe2goSSksY2xlYXJUaW1lb3V0KGspLEUub25IaWRkZW4mJiJoaWRkZW4iIT09UC5zdGF0ZSYmRS5vbkhpZGRlbigpLFAuc3RhdGU9ImhpZGRlbiIsUC5lbmRUaW1lPW5ldyBEYXRlLGYoUCl9fSl9ZnVuY3Rpb24gRCgpeyhFLnRpbWVPdXQ+MHx8RS5leHRlbmRlZFRpbWVPdXQ+MCkmJihrPXNldFRpbWVvdXQoYixFLmV4dGVuZGVkVGltZU91dCksRi5tYXhIaWRlVGltZT1wYXJzZUZsb2F0KEUuZXh0ZW5kZWRUaW1lT3V0KSxGLmhpZGVFdGE9KG5ldyBEYXRlKS5nZXRUaW1lKCkrRi5tYXhIaWRlVGltZSl9ZnVuY3Rpb24gSCgpe2NsZWFyVGltZW91dChrKSxGLmhpZGVFdGE9MCxJLnN0b3AoITAsITApW0Uuc2hvd01ldGhvZF0oe2R1cmF0aW9uOkUuc2hvd0R1cmF0aW9uLGVhc2luZzpFLnNob3dFYXNpbmd9KX1mdW5jdGlvbiB4KCl7dmFyIGU9KEYuaGlkZUV0YS0obmV3IERhdGUpLmdldFRpbWUoKSkvRi5tYXhIaWRlVGltZSoxMDA7cS53aWR0aChlKyIlIil9dmFyIEU9bSgpLHk9dC5pY29uQ2xhc3N8fEUuaWNvbkNsYXNzO2lmKCJ1bmRlZmluZWQiIT10eXBlb2YgdC5vcHRpb25zT3ZlcnJpZGUmJihFPWUuZXh0ZW5kKEUsdC5vcHRpb25zT3ZlcnJpZGUpLHk9dC5vcHRpb25zT3ZlcnJpZGUuaWNvbkNsYXNzfHx5KSwhTyhFLHQpKXtUKyssdj1uKEUsITApO3ZhciBrPW51bGwsST1lKCI8ZGl2Lz4iKSxNPWUoIjxkaXYvPiIpLEI9ZSgiPGRpdi8+IikscT1lKCI8ZGl2Lz4iKSxqPWUoRS5jbG9zZUh0bWwpLEY9e2ludGVydmFsSWQ6bnVsbCxoaWRlRXRhOm51bGwsbWF4SGlkZVRpbWU6bnVsbH0sUD17dG9hc3RJZDpULHN0YXRlOiJ2aXNpYmxlIixzdGFydFRpbWU6bmV3IERhdGUsb3B0aW9uczpFLG1hcDp0fTtyZXR1cm4gcygpLHIoKSxhKCksZihQKSxFLmRlYnVnJiZjb25zb2xlJiZjb25zb2xlLmxvZyhQKSxJfX1mdW5jdGlvbiBtKCl7cmV0dXJuIGUuZXh0ZW5kKHt9LHAoKSxiLm9wdGlvbnMpfWZ1bmN0aW9uIGgoZSl7dnx8KHY9bigpKSxlLmlzKCI6dmlzaWJsZSIpfHwoZS5yZW1vdmUoKSxlPW51bGwsMD09PXYuY2hpbGRyZW4oKS5sZW5ndGgmJih2LnJlbW92ZSgpLHc9dm9pZCAwKSl9dmFyIHYsQyx3LFQ9MCxPPXtlcnJvcjoiZXJyb3IiLGluZm86ImluZm8iLHN1Y2Nlc3M6InN1Y2Nlc3MiLHdhcm5pbmc6Indhcm5pbmcifSxiPXtjbGVhcjpyLHJlbW92ZTpjLGVycm9yOnQsZ2V0Q29udGFpbmVyOm4saW5mbzpvLG9wdGlvbnM6e30sc3Vic2NyaWJlOnMsc3VjY2VzczppLHZlcnNpb246IjIuMS40Iix3YXJuaW5nOmF9O3JldHVybiBifSgpfSl9KCJmdW5jdGlvbiI9PXR5cGVvZiBkZWZpbmUmJmRlZmluZS5hbWQ/ZGVmaW5lOmZ1bmN0aW9uKGUsdCl7InVuZGVmaW5lZCIhPXR5cGVvZiBtb2R1bGUmJm1vZHVsZS5leHBvcnRzP21vZHVsZS5leHBvcnRzPXQocmVxdWlyZSgianF1ZXJ5IikpOndpbmRvdy50b2FzdHI9dCh3aW5kb3cualF1ZXJ5KX0pOwovLyMgc291cmNlTWFwcGluZ1VSTD10b2FzdHIuanMubWFwCg==</base64Binary></Data>
+        <Properties><Property><Name>FileName</Name><Value>toastr.min.js</Value></Property><Property><Name>FileExtension</Name><Value>.js</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+      </Part>
+      <Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+        <Properties />
+      </Part>
+      <Properties><Property><Name>Name</Name><Value>msToastrJS</Value></Property><Property><Name>JavaExtract</Name><Value>True</Value></Property><Property><Name>JavaExtractFolder</Name><Value>MatiasSolucoes\msToastr</Value></Property><Property><Name>NetExtract</Name><Value>True</Value></Property><Property><Name>NetExtractFolder</Name><Value>MatiasSolucoes\msToastr</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+    </Object>
+  </Objects>
+  <Dependencies>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="00000000-0000-0000-0000-000000000008">
+      <Properties Name="Folder" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="c163e562-42c6-4158-ad83-5b21a14cf30e">
+      <Properties Name="External Object" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="00000000-0000-0000-0002-000000000005">
+      <Properties Name="Structure" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="ad3ca970-19d0-44e1-a7b7-db05556e820c">
+      <Properties Name="Help" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="babf62c5-0111-49e9-a1c3-cc004d90900a">
+      <Properties Name="Documentation" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="c9584656-94b6-4ccd-890f-332d11fc2c25">
+      <Properties Name="Web Panel" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="d24a58ad-57ba-41b7-9e6e-eaca3543c778">
+      <Properties Name="Web Form" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="9b0a32a3-de6d-4be1-a4dd-1b85d3741534">
+      <Properties Name="Rules" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="c44bd5ff-f918-415b-98e6-aca44fed84fa">
+      <Properties Name="Events" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="763f0d8b-d8ac-4db4-8dd4-de8979f2b5b9">
+      <Properties Name="Conditions" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
+      <Properties Name="Variables" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="562f4793-aabe-449f-8821-fc77e550698e">
+      <Properties Name="User Control" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="3dd92fe7-b095-44d3-9fa0-8488fa3f0c67">
+      <Properties Name="Screen Template" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="8e9e4a7c-a4d3-4c36-8e8e-fb6702402f63">
+      <Properties Name="Properties" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Object" Id="1132ac08-290f-4fd1-bd18-64777b7329d1">
+      <Properties Name="File" PackageName="GenexusBL" />
+    </Reference>
+    <Reference Package="3ea7e1c6-b849-4df9-931a-070171a8a2f0" Type="Part" Id="9b6155f9-f286-4ed5-bd15-67672e8ea320">
+      <Properties Name="Binary Content" PackageName="GenexusBL" />
+    </Reference>
+  </Dependencies>
+  <ObjectsIdentityMapping>
+    <ObjectIdentity Type="447527b5-9210-4523-898b-5dccb17be60a" Name="Messages" parent="GeneXus.Common">
+      <Guid>7ca0895b-df0a-472f-acb8-517e356b2fcd</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="00000000-0000-0000-0000-000000000008" Name="UserControlObjects" parent="">
+      <Guid>cc190287-9ed5-4b1d-bdbb-dc762ade3af7</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="c88fffcd-b6f8-0000-8fec-00b5497e2117" Name="Common" parent="GeneXus">
+      <Guid>8c7152cf-0193-4d7c-bf15-efeb057c5398</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="c88fffcd-b6f8-0000-8fec-00b5497e2117" Name="GeneXus" parent="">
+      <Guid>4f454e73-7d8f-4a0f-908a-1a355f3634a5</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="00972a17-9975-449e-aab1-d26165d51393" Name="MessageTypes" parent="GeneXus">
+      <Guid>60a17476-86c0-45f4-9405-bbe193690ed0</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="c804fdbd-7c0b-440d-8527-4316c92649a6" Name="Carmine" parent="">
+      <Guid>c3d9279b-69fb-4f4a-920e-62a13a536d87</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="ecececec-dfe0-4a57-ae8f-c6e31b0dcbc0" Name="Default" parent="">
+      <Guid>1e31af77-396d-4ffa-b903-308facded23f</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="d4876646-98dd-419b-8c1c-896f83c48368" Name="Form" parent="">
+      <Guid>d5ef9926-a55b-5eb1-ac93-2211cfeeb656</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="d4876646-98dd-419b-8c1c-896f83c48368" Name="Attribute" parent="">
+      <Guid>7f83da99-bc71-5230-bf17-0352ce27c129</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="d4876646-98dd-419b-8c1c-896f83c48368" Name="Button" parent="">
+      <Guid>abd2de3e-1c96-5681-b52b-bbe33c0dca49</Guid>
+    </ObjectIdentity>
+    <ObjectIdentity Type="d4876646-98dd-419b-8c1c-896f83c48368" Name="Table" parent="">
+      <Guid>784008a4-3c1e-563a-9723-453ef4d698c9</Guid>
+    </ObjectIdentity>
+  </ObjectsIdentityMapping>
+</ExportFile>
