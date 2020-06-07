@@ -83,4 +83,4 @@ Endevent
 
 Gustavo Torrezani Matias – [@instagram](https://www.instagram.com/matiassolucoes/)
 
-A bibliote original é distribuído sob a licença [MIT](https://choosealicense.com/licenses/mit/), sendo assim o UC é distribuído com a mesma licença.
+A biblioteca original é distribuída sob a licença [MIT](https://choosealicense.com/licenses/mit/), sendo assim o UC é distribuído com a mesma licença.
